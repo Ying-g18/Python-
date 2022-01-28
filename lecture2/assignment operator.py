@@ -1,0 +1,23 @@
+a = int(input("Enter a positive integer a : "))
+b = 0
+b += a
+print(f"b+a = {b}")
+b = 0
+b -= a
+print(f"b-a = {b}")
+b = b
+b *= a
+print(f"b*a = {b}")
+b = 0
+b /=a
+print(f"b/a = {b}")
+b = 0
+b %= a
+print(f"b % a = {b}")
+b = 0
+b *= a
+print(f"b**a = {b}")
+b = 0
+b //= a
+print(f"b//a = {b}")
+
